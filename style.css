@@ -1,6 +1,16 @@
 /* Your stylesheet */
 
-.nav
+.nav 
+
+.a
+
 .button {
     font-family: 'Times New Roman', Times, serif;
-    }
+    text-decoration: none;
+    background-color: blue;
+}
+
+.container
+.h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

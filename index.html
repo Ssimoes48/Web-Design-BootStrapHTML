@@ -55,7 +55,19 @@
       </form> -->
     </div>
   </nav>
-
+  <main class="container">
+    <section id="Summary">
+      <section id="figure">
+        <h2 id="table_name">Summary: Latitude vs. Weather</h2>
+        <hr>
+        <img id="map_image" src="Images/equatorsign.png" alt="map" width="25%">
+      </section>
+      <p>What is weather like as you approach the equator? In the below analysis I review weather factors in over 600 cities around the world at varying latitudes and longitudes to see how the temperature, humidity, cloudiness and wind speed are effected as you get closer and farther from the equator. </p>
+      <br>
+      <p>To gather my random world wide city data, I used a `.random.uniform` function to pull a set of 575 cities from varying latitudes and longitudes. Once I compiled this list, I ran a `for loop` to gather data on each city’s maximum temperature, humidity percent level, cloudiness percent, and wind speed. I added this information to a `DataFrame` to analyze. Due to limitations in pulling the data, I added `time.sleep()` after every 50 cities pulled in my code so that I would not exceed my limit of data pulls from the OpenWeatherMap API. </p>
+      <br>
+      <p>I then used the `py.plt` function to show my data in scatter plots. </p>  
+    </section>
   
   <!-- Javascript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

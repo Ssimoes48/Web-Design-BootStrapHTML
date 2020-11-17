@@ -1,16 +1,25 @@
 /* Your stylesheet */
 
-.nav 
+body {
+    background-color: #f1f1f1;
+}
+.navbar {
+    padding: 10px;
+    background-color: #f1f1f1;
+    
+}
 
-.a
-
-.button {
+.navbar-brand {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-    background-color: blue;
+    background-color: rgb(106, 240, 233);
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    font-size: 30px
 }
 
-.container
-.h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.navbar li  {
+    align-items: left;
 }
+

@@ -35,18 +35,15 @@ body {
     border: 3px solid black;
     margin: 10px;
     padding: 30px;
+    background-color: white;
 }
 
 #Visualization{
     border: 3px solid black;
     margin: 10px;
-    padding: 30px;
+    padding: 40px;
     width: auto;
 }
-/* h2 {
-  color: rgb(106, 240, 233)
-  font-weight
-} */
 
 #Cloudiness {
   margin: 10px;
@@ -83,41 +80,30 @@ body {
       padding: 20px;
   }
 
+  .container h3 {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+  }
+
   #figure {
     position: relative;
   }
   
   #map_image {
-
     margin-right: 20px;
     margin-left: 20px;
     float: left
   }
   
-  #cloud_image {
+  #image {
     display: block;
     margin-left: auto;
     margin-right: auto
   }
 
-  #temp_image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-  }
-
-  #humidity_image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-  }
-
-  #wind_image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-  }
-
-  #Data {
-
-  }
+#Data {
+  border: 1px solid black
+}
+  

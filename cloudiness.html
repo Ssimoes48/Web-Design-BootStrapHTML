@@ -40,7 +40,7 @@
             <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
             <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
             <!-- <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="https://ssimoes48.github.io/">Contact: Sara Simoes</a> -->
+            <a class="dropdown-item" href="https://ssimoes48.github.io/">Contact: Sara Simoes</a> -->
           </div>
         </li>
         <li class="nav-item active">
@@ -58,17 +58,62 @@
     </div>
   </nav>
 
+
   <main class="container">
-    <section id="Cloudiness">
-      <section id="figure">
-        <h2 id="table_name">Latitude vs. Cloudiness</h2>
-        <hr>
-        <img id="cloud_image" src="Images/lat_cloudiness.PNG" alt="map">
+    <div class="col-md-8">
+      <section id="Cloudiness">
+        <section id="figure">
+          <h2 id="table_name">Latitude vs. Cloudiness</h2>
+          <hr>
+          <img id="image" src="Images/lat_cloudiness.PNG" alt="ack">
+        </section>
+        <p>There appears to be no real correlation to of Cloudiness to latitude accept that at the equator, like
+          humidity, there appears to always be a percent of cloud formation. </p>
       </section>
-      <p>There appears to be no real correlation to of Cloudiness to latitude accept that at the equator, like humidity,
-        there appears to always be a percent of cloud formation.</p>
-    </section>
+    </div>
   </main>
+
+  <div class="container">
+    <div class="col-md-6">
+      <section id="Visualization">
+        <section id="figure">
+          <h2 id="table_name">Visualization</h2>
+          <hr>
+          <text>Click any plot to see an in-depth analysis. </text>
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="cloudiness.html">
+                <img src="Images\lat_cloudiness.PNG" alt="ack" width="95%">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="max_temp.html">
+                <img src="Images\lat_temp.PNG" alt="ack" width="95%">
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="humidity.html">
+                <img src="Images\lat_humidity.PNG" alt="ack" width="95%">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="wind_speed.html">
+                <img src="Images\lat_wind.PNG" alt="ack" width="95%">
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </div>
+
+
+
+
 
   <!-- Javascript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

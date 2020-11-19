@@ -30,17 +30,23 @@ body {
     margin: auto;
     padding: 30px;
   }
+
 #Summary {
     border: 3px solid black;
     margin: 10px;
     padding: 30px;
-
 }
 
-#Visulaization{
+#Visualization{
     border: 3px solid black;
     margin: 10px;
+    padding: 30px;
+    width: auto;
 }
+/* h2 {
+  color: rgb(106, 240, 233)
+  font-weight
+} */
 
 #Cloudiness {
   margin: 10px;
@@ -72,11 +78,14 @@ body {
 
 .container h2{
       font-weight: bold;
+      font-size: 40px;
+      background-color:  rgb(106, 240, 233);
+      padding: 20px;
   }
 
-  /* #figure {
+  #figure {
     position: relative;
-  } */
+  }
   
   #map_image {
 

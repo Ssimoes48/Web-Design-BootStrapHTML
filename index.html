@@ -60,87 +60,69 @@
 
 
   <main class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <section id="Summary">
-          <section id="figure">
-            <h2 id="table_name">Summary: Latitude vs. Weather</h2>
-            <hr>
-            <img id="map_image" src="Images/equatorsign.png" alt="map" width="35%">
-          </section>
-          <p>What is weather like as you approach the equator? In the below analysis I review weather factors in over
-            600
-            cities around the world at varying latitudes and longitudes to see how the temperature, humidity, cloudiness
-            and wind speed are effected as you get closer and farther from the equator. </p>
-          <br>
-          <p>To gather my random world wide city data, I used a `.random.uniform` function to pull a set of 575 cities
-            from varying latitudes and longitudes. Once I compiled this list, I ran a `for loop` to gather data on each
-            city’s maximum temperature, humidity percent level, cloudiness percent, and wind speed. I added this
-            information to a `DataFrame` to analyze. Due to limitations in pulling the data, I added `time.sleep()`
-            after
-            every 50 cities pulled in my code so that I would not exceed my limit of data pulls from the OpenWeatherMap
-            API. </p>
-          <br>
-          <p>I then used the `py.plt` function to show my data in scatter plots. </p>
+    <div class="col-md-8">
+      <section id="Summary">
+        <section id="figure">
+          <h2 id="table_name">Summary: Latitude vs. Weather</h2>
+          <hr>
+          <img id="map_image" src="Images/equatorsign.png" alt="map" width="45%">
         </section>
-      </div>
-
-      <div class="col-md-4">
-        <section id="Visualization">
-          <section id="figure">
-            <h2 id="table_name">Visualization</h2>
-            <hr>
-            <main class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <section id="Cloudiness">
-                    <section id="figure">
-                      <a href="cloudiness.html">
-                        <img src="Images\lat_cloudiness.PNG" alt="ack">
-                      </a>
-                    </section>
-                  </section>
-                </div>
-              </div>
-            </main>
-            <main class="container">
-              <div class="col-md-6">
-                <section id="Humidity">
-                  <section id="figure">
-                    <a href="humidity.html">
-                      <img src="Images\lat_humidity.PNG" alt="ack">
-                    </a>
-                  </section>
-                </section>
-              </div>
-            </main>
-            <main class="container">
-              <div class="col-md-6">
-                <section id="Wind">
-                  <section id="figure">
-                    <a href="wind_speed.html">
-                      <img src="Images\lat_wind.PNG" alt="ack">
-                    </a>
-                  </section>
-                </section>
-              </div>
-            </main>
-            <main class="container">
-              <div class="col-md-6">
-                <section id="Temperature">
-                  <section id="figure">
-                    <a href="max_temp.html">
-                      <img src="Images\lat_temp.PNG" alt="ack">
-                    </a>
-                  </section>
-                </section>
-              </div>
-            </main>
-          </section>
-        </section>
-      </div>
+        <p>What is weather like as you approach the equator? In the below analysis I review weather factors in over
+          600
+          cities around the world at varying latitudes and longitudes to see how the temperature, humidity, cloudiness
+          and wind speed are effected as you get closer and farther from the equator. </p>
+        <br>
+        <p>To gather my random world wide city data, I used a `.random.uniform` function to pull a set of 575 cities
+          from varying latitudes and longitudes. Once I compiled this list, I ran a `for loop` to gather data on each
+          city’s maximum temperature, humidity percent level, cloudiness percent, and wind speed. I added this
+          information to a `DataFrame` to analyze. Due to limitations in pulling the data, I added `time.sleep()`
+          after
+          every 50 cities pulled in my code so that I would not exceed my limit of data pulls from the OpenWeatherMap
+          API. </p>
+        <br>
+        <p>I then used the `py.plt` function to show my data in scatter plots. </p>
+      </section>
     </div>
   </main>
+
+  <div class="container">
+    <div class="col-md-4">
+      <section id="Visualization">
+        <section id="figure">
+          <h2 id="table_name">Visualization</h2>
+          <hr>
+          <text>Click any plot to see an in-depth analysis. </text>
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="cloudiness.html">
+                <img src="Images\lat_cloudiness.PNG" alt="ack" width="95%">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="max_temp.html">
+                <img src="Images\lat_temp.PNG" alt="ack" width="95%">
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <a href="humidity.html">
+                <img src="Images\lat_humidity.PNG" alt="ack" width="95%">
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="wind_speed.html">
+                <img src="Images\lat_wind.PNG" alt="ack" width="95%">
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </div>
+
 
 
 

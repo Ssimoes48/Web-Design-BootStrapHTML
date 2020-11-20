@@ -34,14 +34,14 @@ body {
 #Summary {
     border: 2px solid black;
     margin: 10px;
-    padding: 30px;
+    padding: 20px;
     background-color: white;
 }
 
 #Visualization{
     border: 2px solid black;
     margin: 10px;
-    padding: 40px;
+    padding: 20px;
     width: auto;
     background-color: white;
 }
@@ -105,8 +105,9 @@ body {
   }
   
   #map_image {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
     float: left
   }
   

@@ -88,14 +88,14 @@ body {
 
 .container h2{
       font-weight: bold;
-      font-size: 40px;
+      font-size: inherit;
       background-color:  rgb(106, 240, 233);
-      padding: 20px;
+      padding: 10px;
   }
 
   .container h3 {
     font-weight: bold;
-    font-size: 25px;
+    font-size: inherit;
     padding: 10px;
     text-align: center;
   }

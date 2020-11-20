@@ -28,75 +28,80 @@ body {
 .container {
     width: auto;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
   }
 
 #Summary {
     border: 2px solid black;
-    margin: 10px;
-    padding: 20px;
+    margin: 30px;
+    padding: 40px;
+    width: auto;
     background-color: white;
 }
 
-#Visualization{
+#Comparison {
     border: 2px solid black;
-    margin: 10px;
-    padding: 20px;
+    margin: 30px;
+    padding: 40px;
     width: auto;
     background-color: white;
 }
 
 #Cloudiness {
-  margin: 10px;
+  margin: 30px;
+  padding: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid black;
   background-color: white;
-  padding: 20px;
+
 }
 
 #Humidity {
-  margin: 10px;
+  margin: 30px;
+  padding: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid black;
   background-color: white;
-  padding: 20px;
+
 }
 
 #Wind {
-  margin: 10px;
+  margin: 30px;
+  padding: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid black;
   background-color: white;
-  padding: 20px;
+
 }
 
 #Temperature {
-  margin: 10px;
+  margin: 30px;
+  padding: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid black;
   background-color: white;
-  padding: 20px;
+
 }
 
-.container h2{
+h2{
       font-weight: bold;
       font-size: inherit;
       background-color:  rgb(106, 240, 233);
-      padding: 10px;
+      padding: 20px;
   }
 
-  .container h3 {
+h3 {
     font-weight: bold;
     font-size: inherit;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
   }
 
@@ -104,11 +109,11 @@ body {
     position: relative;
   }
   
-  #map_image {
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px;
-    float: left
+#map_image {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  float: left
   }
   
   #image {

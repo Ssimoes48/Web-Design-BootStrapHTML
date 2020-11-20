@@ -105,6 +105,12 @@ h3 {
     text-align: center;
   }
 
+h4 {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+}
   #figure {
     position: relative;
   }

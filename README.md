@@ -1,5 +1,7 @@
 # Web Design
 
+![Clouds](Images/Images/cloud_float.PNG)
+
 I am so excited to share with you my first website! It illustrates a research project on weather conditions in relationship to latitude. My website is very interactive, has live animations as well as the capability to link several ways between pages. It also will update in scale depending on the size screen you are viewing it on! Please Enjoy!
 
 [Weather vs. Latitude](https://ssimoes48.github.io/Web-Design-Challenge/)

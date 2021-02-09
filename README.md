@@ -8,9 +8,9 @@ Data is more powerful when its shared! I am excited to share with you my analysi
 
 ## Table of contents
 * [NavBar](#navbar)
-* [Home Page](#home_page)
+* [Home Page](#home-page)
 * [Comparison](#comparison)
-* [Weather Analysis](#weather_analysis)
+* [Weather Analysis](#weather-analysis)
 * [Data](#data)
 * [Sizing](#sizing)
 * [Resources](#resources)
@@ -121,4 +121,4 @@ My Website: [Weather vs. Latitude](https://ssimoes48.github.io/Web-Design-Challe
 
 
 ## Contact
-Sara Simoes
+[Sara Simoes](https://github.com/Ssimoes48)

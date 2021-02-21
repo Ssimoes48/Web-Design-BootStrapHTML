@@ -1,4 +1,4 @@
-# HTML- Web Design
+# Web Design - Bootstrap/ HTML
 
 ![Clouds](Images/Images/cloud_float.PNG)
 

@@ -1,4 +1,4 @@
-# Web Design
+# HTML- Web Design
 
 ![Clouds](Images/Images/cloud_float.PNG)
 
@@ -7,6 +7,7 @@ Data is more powerful when its shared! I am excited to share with you my analysi
 [Weather vs. Latitude](https://ssimoes48.github.io/Web-Design-Challenge/)
 
 ## Table of contents
+* [Technologies](#technologies)
 * [NavBar](#navbar)
 * [Home Page](#home-page)
 * [Comparison](#comparison)
@@ -16,6 +17,10 @@ Data is more powerful when its shared! I am excited to share with you my analysi
 * [Resources](#resources)
 * [Contact](#contact)
 
+## Technologies 
+ * HTML
+ * CSS
+ 
 ## NavBar
 
 At the top of my website, there is navigation bar. To create this bar I used code from `BootStrap` . The NavBar includes:

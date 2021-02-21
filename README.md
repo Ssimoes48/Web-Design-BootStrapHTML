@@ -19,6 +19,7 @@ Data is more powerful when its shared! I am excited to share with you my analysi
 
 ## Technologies 
  * HTML
+ * Bootstrap
  * CSS
  
 ## NavBar
